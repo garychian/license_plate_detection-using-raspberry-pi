@@ -18,10 +18,13 @@ The app also saves a csv file containing the dates and GPS coordinates of each i
 
 The observable latency between capturing the frame and broadcasting the predictions in the browser (with all the inference stuff going on) takes about 0.5-1.0 seconds depending on:
 
-How many replicas are assigned for each API.
+* How many replicas are assigned for each API.
 
-Internet connection bandwidth and latency.
+* Internet connection bandwidth and latency.
 
-Broadcast buffer size. To get a smoother stream, use a higher buffer size (10-30) or if you want the stream to be displayed as quickly as possible but with possible dropped frames, go with lower values (<10).
+* Broadcast buffer size. To get a smoother stream, use a higher buffer size (10-30) or if you want the stream to be displayed as quickly as possible but with possible dropped frames, go with lower values (<10).
 
-To learn more about how the actual device was constructed, check out this article.
+## Target Machine
+
+Target machine 1: Raspberry Pi
+Target machine 2: Raspberry pi camera Board v2-8 Megapixels $29.95
