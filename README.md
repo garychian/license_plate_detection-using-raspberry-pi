@@ -13,6 +13,9 @@ Latency
 The observable latency between capturing the frame and broadcasting the predictions in the browser (with all the inference stuff going on) takes about 0.5-1.0 seconds depending on:
 
 How many replicas are assigned for each API.
+
 Internet connection bandwidth and latency.
+
 Broadcast buffer size. To get a smoother stream, use a higher buffer size (10-30) or if you want the stream to be displayed as quickly as possible but with possible dropped frames, go with lower values (<10).
+
 To learn more about how the actual device was constructed, check out this article.
