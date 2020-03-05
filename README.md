@@ -7,7 +7,7 @@ The app must be configured to use the API endpoints as shown when calling cortex
 
 The app also saves a csv file containing the dates and GPS coordinates of each identified license plate.
 
-Latency
+2. Latency
 
 
 The observable latency between capturing the frame and broadcasting the predictions in the browser (with all the inference stuff going on) takes about 0.5-1.0 seconds depending on:
