@@ -26,5 +26,5 @@ The observable latency between capturing the frame and broadcasting the predicti
 
 ## Target Machine
 
-Target machine 1: Raspberry Pi
-Target machine 2: Raspberry pi camera Board v2-8 Megapixels $29.95
+* Target machine 1: Raspberry Pi
+* Target machine 2: Raspberry pi camera Board v2-8 Megapixels $29.95
