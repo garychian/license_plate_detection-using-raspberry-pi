@@ -34,15 +34,15 @@ The observable latency between capturing the frame and broadcasting the predicti
 
 YOLOv3 is the most quickest model right now and have a pretty good mAP, we will use this model to detect object. 
 We picked one model which use Keras to relize
-Keras: https://github.com/experiencor/keras-yolo3
+* Keras: https://github.com/experiencor/keras-yolo3
 
 #### 2.1.2 CRAFT text detector, which can detect texts in our object
 #### 2.1.3 CRNN Rucurrent neural network, the purpose is to form the text to a word, so it has to be RNN model
 
 Robert find a keras-ocr package, which packaged CRAFT and CRNN, very useful, so we decide to use the model. 
-keras-ocr: https://github.com/faustomorales/keras-ocr
+* keras-ocr: https://github.com/faustomorales/keras-ocr
 
 ### 2.2 Data
 
 We decide to record videos in our city and use VOTT to label all with license plates. The target is 1000 images
-VOTT: https://github.com/microsoft/VoTT
+* VOTT: https://github.com/microsoft/VoTT
