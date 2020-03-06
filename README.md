@@ -26,13 +26,13 @@ The observable latency between capturing the frame and broadcasting the predicti
 ### 1.3 Target Machine
 
 * Target machine 1: Raspberry Pi
-* Target machine 2: Raspberry pi camera Board v2-8 Megapixels $29.95
+* Target machine 2: [Raspberry pi camera Board v2-8 Megapixels](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS) $29.95
 
 ## 2 Prediction Model and DATA
 ### 2.1 Model 
 #### 2.1.1 YOLOv3
 
-YOLOv3 is the most quickest model right now and have a pretty good mAP, we will use this model to detect object. 
+[YOLOv3](https://pjreddie.com/darknet/yolo/) is the most quickest model right now and have a pretty good mAP, we will use this model to detect object. 
 We picked one model which use Keras to relize
 * Keras: https://github.com/experiencor/keras-yolo3
 
