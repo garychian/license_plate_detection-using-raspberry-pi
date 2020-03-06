@@ -43,6 +43,9 @@ Robert find a keras-ocr package, which packaged CRAFT and CRNN, very useful, so 
 * keras-ocr: https://github.com/faustomorales/keras-ocr
 
 ### 2.2 Data
+#### To do list
+- [ ] record video
+- [ ] Use VOTT to label and pick the pictures which contain plate, about 1000 images
 
 We decide to record videos in our city and use VOTT to label all with license plates. The target is 1000 images
 * VOTT: https://github.com/microsoft/VoTT
