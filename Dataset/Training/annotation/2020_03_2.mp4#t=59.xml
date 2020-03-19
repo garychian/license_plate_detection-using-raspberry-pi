@@ -1,0 +1,37 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2020_03_2.mp4#t=59.jpg</filename>
+    <path>License-Plate-Detection-PascalVOC-export/Annotations/2020_03_2.mp4#t=59.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>License Plate</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1440.1192764945652</xmin>
+        <ymin>741.3865979381444</ymin>
+        <xmax>1480.824847146739</xmax>
+        <ymax>771.9256453366625</ymax>
+    </bndbox>
+</object><object>
+    <name>License Plate</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1183.8014775815218</xmin>
+        <ymin>722.299812238241</ymin>
+        <xmax>1207.9702275815218</xmax>
+        <ymax>747.1126948091172</ymax>
+    </bndbox>
+</object>
+</annotation>
